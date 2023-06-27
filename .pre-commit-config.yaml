@@ -14,7 +14,7 @@ repos:
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://github.com/asottile/pyupgrade
-    rev: v3.3.2
+    rev: v3.7.0
     hooks:
     -   id: pyupgrade
         args:
@@ -23,7 +23,7 @@ repos:
         # This file is more readable without yield from
         exclude: ^docs_src/progressbar/tutorial004\.py
 -   repo: https://github.com/PyCQA/autoflake
-    rev: v2.1.1
+    rev: v2.2.0
     hooks:
     -   id: autoflake
         args:
